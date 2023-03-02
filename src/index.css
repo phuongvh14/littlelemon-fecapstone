@@ -84,7 +84,7 @@ header {
 }
 
 .footer-container {
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -162,4 +162,19 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.section-content p {
+  font-family: "Karla", sans-serif;
+  font-size: 1.2rem;
+}
+
+.section-content p a {
+  color: #fff;
+  margin-top: 0.5rem;
+}
+
+.social-media i {
+  margin-top: 1.5rem;
+  margin-right: 1.5rem;
 }
