@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;800&family=Markazi+Text:wght@400;500&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +17,149 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.details {
+  min-height: calc(100vh - 20rem);
+}
+
+
+/* NAVBAR COMPONENT STYLING */
+header {
+  display: flex;
+  background-color: #fff;
+  width: 100%;
+  height: 5rem;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 15px 0;
+}
+
+.nav-logo {
+  height: auto;
+  width: 120%;
+}
+
+.nav-links ul{
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links ul li {
+  padding: 0 15px;
+}
+
+.nav-links .nav-link {
+  font-family: "Karla", sans-serif;
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: #495e57;
+  font-weight: 450;
+  padding: 0.5rem;
+}
+
+.active {
+  font-weight: 650;
+}
+
+.nav-links .nav-link:hover{
+  color: #778c85;
+}
+
+
+/* FOOTER COMPONENT STYLING */
+.footer-background {
+  background-color: #495e57;
+  height: 15rem;
+  padding: 40px 0;
+}
+
+.footer-container {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.footer-img {
+  width: 80px;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 10% 25% 15% 25% 25%;
+  justify-content: center;
+}
+
+.footer-nav ul {
+  list-style-type: none;
+}
+
+.footer-nav ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-nav .nav-link {
+  font-family: "Karla", sans-serif;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
+}
+
+.footer-nav .nav-link:hover {
+  font-weight: 500;
+}
+
+.footer-content h1{
+  font-family: "Markazi Text", sans-serif;
+  align-items: center;
+  padding-left: 0.4rem;
+}
+
+.hotline .section-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: right ;
+  align-items: center;
+}
+
+.hotline .section-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hotline .section-content p {
+  font-family: "Karla", sans-serif;
+  font-size: 3rem;
+  color: #f4ce14;
+}
+
+.hotline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
