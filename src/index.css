@@ -67,8 +67,8 @@ header {
   padding: 0.5rem;
 }
 
-.active {
-  font-weight: 650;
+.nav-links .active {
+  text-decoration: underline ;
 }
 
 .nav-links .nav-link:hover{
@@ -177,4 +177,31 @@ header {
 .social-media i {
   margin-top: 1.5rem;
   margin-right: 1.5rem;
+}
+
+/* GENERIC TEMPLATE STYLING */
+
+.details-content {
+  position: relative;
+  text-align: center;
+  height: 30rem;
+}
+
+.bg-pic {
+  height: 30rem;
+  width: 100vw;
+  object-fit: cover;
+}
+
+.bg-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-60%, -60%);
+  font-size: 1.2rem;
+  font-family: "Markazi Text", sans-serif;
+  background-color: #495e57;
+  border-radius: 0.5rem;
+  padding: 0.2rem 0.8rem;
+  color: white;
 }
