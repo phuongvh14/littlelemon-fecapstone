@@ -205,3 +205,41 @@ header {
   padding: 0.2rem 0.8rem;
   color: white;
 }
+
+/* HOMEPAGE STYLING */
+.hero-section-container {
+  background-color: #495e57;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 30vh;
+}
+
+.hero-section-left h1 {
+  font-family: "Markazi Text", sans-serif;
+  color: #f4ce14;
+}
+
+.hero-section-left h2 {
+  font-family: "Markazi Text", sans-serif;
+  color: white;
+}
+
+.hero-section-left p {
+  font-family: "Karla", sans-serif;
+  color: white;
+}
+
+.hero-section-left btn {
+  font-family: "Markazi Text", sans-serif;
+}
+
+.hero-section-right {
+  border-radius: 0.5rem;
+}
+
+.hero-section-img {
+  height: 100px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}

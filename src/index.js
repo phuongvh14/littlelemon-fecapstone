@@ -8,6 +8,7 @@ import About from "./routes/about";
 import Blog from "./routes/blog";
 import Menu from "./routes/menu";
 import Order from "./routes/order-online";
+import Homepage from "./routes/homepage";
 import ErrorPage from "./error-page";
 
 const router = createBrowserRouter([
@@ -17,7 +18,11 @@ const router = createBrowserRouter([
         errorElement: <ErrorPage />,
         children: [
             {
-                path: 'reserve',
+                path: '/',
+                element: <Homepage />,
+            },
+            {
+                path: '/reserve',
                 element: <Reservation />,
             },
             {
