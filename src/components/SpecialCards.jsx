@@ -5,7 +5,7 @@ import IndividualCard from './IndividualCard'
 
 export default function SpecialCards() {
     const specialMenus = [
-        {   
+        {
             image: GreekSalad,
             title: "Greek Salad",
             price: "$8.99",

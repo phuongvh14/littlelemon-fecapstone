@@ -235,7 +235,6 @@ footer {
   width: 90%;
   display: flex;
   justify-content: space-between;
-  height: 55vh;
   padding: 30px 0;
   margin: 0 auto;
 }
@@ -300,7 +299,7 @@ footer {
 }
 
 .hero-section-img {
-  width: 100%;
+  width: 90%;
   border-radius: 0.5rem;
 }
 
@@ -383,3 +382,48 @@ SPECIAL SECTION ON HOMEPAGE STYLING */
   justify-content: space-between;
   padding-right: 18px;
 }
+
+/* TESTIMONIAL SECTION STYLING */
+.testimonial-section-container {
+  width: 95%;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+
+.testimonial-section-title {
+  text-align: center;
+  font-family: "Markazi Text", sans-serif;
+  font-size: 1.8rem;
+}
+
+.customer-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.customer-card-container {
+  background-color: #edefee;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.symbol-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 10px 15px 10px;
+}
+
+.customer-name {
+  text-align: center;
+  font-family: "Markazi Text", sans-serif;
+  font-size: 1.2rem;
+  padding-top: 10px;
+}
+
+.customer-text-container p {
+  padding: 5px 10px;
+  font-family: "Karla", sans-serif;
+  font-size: 1.1rem;
+}
+
