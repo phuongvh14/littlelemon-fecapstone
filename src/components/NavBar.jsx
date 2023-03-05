@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import NavLinks from "./NavLinks";
 import Logo from "../components/assets/logo.svg";
+import MobileNav from "./MobileNav";
 
 export default function NavBar() {
     return (
@@ -16,6 +17,7 @@ export default function NavBar() {
                 <nav className="nav-links">
                     <NavLinks />
                 </nav>
+                <MobileNav />
             </div>
 
         </header>

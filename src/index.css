@@ -88,6 +88,10 @@ header {
   color: #778c85;
 }
 
+.mobile-nav {
+  display: none;
+}
+
 
 /* FOOTER COMPONENT STYLING */
 footer {
@@ -425,5 +429,20 @@ SPECIAL SECTION ON HOMEPAGE STYLING */
   padding: 5px 10px;
   font-family: "Karla", sans-serif;
   font-size: 1.1rem;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1024px) {
+  .footer-container{
+    width: 100%;
+    padding: 0 30px 0 30px;
+  }
+  .footer-nav, .hotline{
+    display: none;
+  }
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+  }
 }
 
