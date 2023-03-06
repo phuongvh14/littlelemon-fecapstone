@@ -12,7 +12,7 @@ export default function HeroSection() {
                         thousands of happy customers.
                         We specialize in traditional Mediterranean cuisine served with a modern twist. 
                     </p>
-                    <a href='/reserve'>
+                    <a href='/reservation'>
                         <button class='btn'>Reserve a table</button>
                     </a>
                 </div>
@@ -20,7 +20,6 @@ export default function HeroSection() {
                     <div className="image-box">
                         <img className="hero-section-img" src={Brothers} alt="Pictures of Adrian and Mario" />
                     </div>
-                    
                 </div>
             </div>
         </div>
