@@ -88,7 +88,15 @@ header {
   color: #778c85;
 }
 
+.burger-icon {
+  display: none;
+}
+
 .mobile-nav {
+  display: none;
+}
+
+.open-menu {
   display: none;
 }
 
@@ -200,6 +208,41 @@ footer {
   margin-right: 1.5rem;
 }
 
+.small-screen-footer {
+  display: none;
+}
+
+/* RESERVATION PAGE STYLING */
+.reservation-section-wrapper {
+  width: 100vw;
+  height: 80vh;
+  background-size: cover;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.60)), url("./components/assets/food-pic.jpg");
+}
+
+.reservation-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  padding: 50px 50px 50px 120px;
+}
+
+.reservation-text {
+  padding-top: 50px;
+  color: white;
+}
+.reservation-text h1 {
+  font-family: "Markazi Text", sans-serif;
+  font-size: 3rem;
+  line-height: 1;
+}
+.reservation-text p {
+  font-family: "Karla", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  padding-top: 20px;
+}
+
 /* GENERIC TEMPLATE STYLING */
 
 .details-content {
@@ -307,8 +350,7 @@ footer {
   border-radius: 0.5rem;
 }
 
-/* 
-SPECIAL SECTION ON HOMEPAGE STYLING */
+/* SPECIAL SECTION ON HOMEPAGE STYLING */
 
 .specials-section-container {
   width: 85%;
@@ -381,6 +423,10 @@ SPECIAL SECTION ON HOMEPAGE STYLING */
   font-size: 1.6rem;
 }
 
+.special-card-text a:hover {
+  color: #495e57;
+}
+
 .delivery {
   display: flex;
   justify-content: space-between;
@@ -444,5 +490,105 @@ SPECIAL SECTION ON HOMEPAGE STYLING */
     display: flex;
     justify-content: space-around;
   }
+  .nav-links {
+    display: none;
+  }
+  .header-wrapper {
+    padding: 0 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .burger-icon {
+    display: flex;
+  }
+  .mobile-nav {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    text-decoration: none;
+    align-items: flex-end;
+  }
+  .mobile-nav ul {
+    list-style-type: none;
+    text-align: right;
+    padding: 0 20px 20px 0;
+  }
+  .mobile-nav .nav-link {
+    font-family: "Karla", sans-serif;
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #333333;
+    font-weight: 450;
+    padding: 0.5rem;
+    line-height: 2;
+  }
+  .mobile-nav a:hover {
+    color: #495e57;
+  }
+  .hero-section-container {
+    width: 100%;
+    padding: 30px;
+  }
+  .hero-section-right {
+    display: none;
+  }
+  .specials-section-container {
+    width: 100%;
+    padding: 40px 20px 0px 20px;
+  }
+  .specials-section-title h1 {
+    line-height: 1.2;
+    font-size: 3rem;
+  }
+  .special-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+  .testimonial-section-container {
+    width: 100%;
+    padding: 30px 10px 30px 10px;
+  }
+  .customer-cards {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+  .customer-card-container {
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .details-content {
+    width: 100%;
+  }
 }
+
+@media screen and (max-width: 659px) {
+  .special-cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .customer-cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .footer-container{
+    width: 100%;
+    padding: 0 10px 0 10px;
+  }
+  .footer-logo img {
+    width: 60px;
+  }
+  .address, .connect {
+    display: none;
+  }
+  .small-screen-footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .small-screen-footer p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
+
 

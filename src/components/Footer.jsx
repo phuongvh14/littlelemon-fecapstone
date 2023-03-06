@@ -53,6 +53,20 @@ export default function Footer() {
                             <i class="fa-brands fa-twitter fa-2xl"></i>
                         </div>
                     </div>
+                    <div className="small-screen-footer">
+                        <div className="section-content">
+                            <p>420 W Belmont Ave, Chicago, IL</p>
+                            <p>88 Russell St, Lewiston, ME</p>
+                            <p>Tel: (773)-961-8196</p>
+                            <p>Email: <a href='mailto:info@littlelemon.com'>info@littlelemon.com</a></p>
+                        </div>
+                        <div className="social-media">
+                            <i class="fa-brands fa-square-facebook fa-lg"></i>
+                            <i class="fa-brands fa-instagram fa-lg"></i>
+                            <i class="fa-brands fa-tiktok fa-lg"></i>
+                            <i class="fa-brands fa-twitter fa-lg"></i>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

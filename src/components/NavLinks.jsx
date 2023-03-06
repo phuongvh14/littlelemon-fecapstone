@@ -7,7 +7,7 @@ export default function NavLinks() {
             <li><NavLink to="/about" activeClassName="active" className={"nav-link"}>About Us</NavLink></li>
             <li><NavLink to="/menu" activeClassName="active" className={"nav-link"}>Our Menu</NavLink></li>
             <li><NavLink to="/order" activeClassName="active" className={"nav-link"}>Order Online</NavLink></li>
-            <li><NavLink to="/reserve" activeClassName="active" className={"nav-link"}>Reservations</NavLink></li>
+            <li><NavLink to="/reservation" activeClassName="active" className={"nav-link"}>Reservations</NavLink></li>
             <li><NavLink to="/blog" activeClassName="active" className={"nav-link"}>Blog</NavLink></li>
         </ul>
     )

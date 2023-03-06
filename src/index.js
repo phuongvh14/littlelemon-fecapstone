@@ -3,13 +3,13 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Root from "./routes/root";
-import Reservation from "./routes/reservation";
 import About from "./routes/about";
 import Blog from "./routes/blog";
 import Menu from "./routes/menu";
 import Order from "./routes/order-online";
 import Homepage from "./routes/homepage";
 import ErrorPage from "./error-page";
+import Reserve from "./routes/reserve";
 
 const router = createBrowserRouter([
     {
@@ -20,10 +20,6 @@ const router = createBrowserRouter([
             {
                 path: '/',
                 element: <Homepage />,
-            },
-            {
-                path: '/reserve',
-                element: <Reservation />,
             },
             {
                 path: 'about',
@@ -39,8 +35,12 @@ const router = createBrowserRouter([
             },
             {
                 path: 'order',
-                element: <Order />
+                element: <Order />,
             },
+            {
+                path: 'reservation',
+                element: <Reserve />,
+            }
         ]
     },
 ]);
