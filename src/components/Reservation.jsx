@@ -12,7 +12,8 @@ export default function Reservation() {
                     </p>
                 </div>
                 <div className="reservation-form">
-                    <h1>Hello</h1>
+                    <h2>Reserve a table</h2>
+                    <p>Please fill out the form below and submit it to get your reservation number.</p>
                     <Form />
                 </div>
             </div>

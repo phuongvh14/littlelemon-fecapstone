@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom"
 
 export default function IndividualCard({image, title, price, description, order}) {
     return (
-        <div className="special-card-container">
+        <div className="special-card-container" id={title}>
             <div className="image-container">
                 <img src={image} alt={"Special menu"} />
             </div>
